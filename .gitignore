@@ -5,12 +5,12 @@ job_aggregator_prd.html
 # Claude settings
 .claude/settings.local.json
 
-# Job Aggregator project
-job_aggregator/
+# Job Aggregator - specific ignores
 job_aggregator/.env
 job_aggregator/__pycache__/
 job_aggregator/*.py[cod]
 job_aggregator/*.pyc
+job_aggregator/instance/
 job_aggregator/*.db
 job_aggregator/*.sqlite
 job_aggregator/*.sqlite3
